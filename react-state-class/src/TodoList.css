@@ -1,0 +1,22 @@
+
+
+.todo-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-item.completed {
+    background-color: #dff0d8; /* Light green background for completed todos */
+    color: #3c763d; /* Dark green text for completed todos */
+}
+
+.todo-item.not-completed {
+    background-color: #fff; /* White background for not completed todos */
+    color: #333; /* Black text for not completed todos */
+}
+
+.todo-item.completed span {
+    text-decoration: line-through;
+}
